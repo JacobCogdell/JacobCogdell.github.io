@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Page Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo"><img src="helphub_logo.png" alt="Logo" height="40"></div>
+    <div class="nav">
+      <a href="HelpHubHome.html">Home</a>
+      <a href="CharitiesHome.html">Charities</a>
+      <a href="NewCharity.html">Register Charity</a>
+    </div>
+    <div class="profile"><a href="userprofile.html">User Profile</a></div>
+  </div>
+
+  <div class="content">
+    <div class="row">
+      <div class="section">
+        <h2>Charities</h2>
+        <table class="charities-table">
+          <tr>
+            <th>Organization</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Contact</th>
+          </tr>
+          <tr>
+            <td>Habitat for Humanity</td>
+            <td>Spartanburg</td>
+            <td>SC</td>
+            <td class="contact-cell" data-name="Handy Manny" data-phone="123-456-7890" data-email="handy@gmail.com">Handy Manny</td>
+          </tr>
+          <tr>
+            <td>Miracle Hill</td>
+            <td>Spartanburg</td>
+            <td>SC</td>
+            <td class="contact-cell" data-name="Reily Smith" data-phone="123-468-4990" data-email="reily@mh.com">Reily Smith</td>
+          </tr>
+          <tr>
+            <td>United Way of the Piedmont</td>
+            <td>Greenville</td>
+            <td>SC</td>
+            <td class="contact-cell" data-name="Pam Moody" data-phone="803-456-1270" data-email="moody@uwp.org">Pam Moody</td>
+          </tr>
+          <tr>
+            <td>Operation Hope</td>
+            <td>Landrum</td>
+            <td>SC</td>
+            <td class="contact-cell" data-name="Glen Melton" data-phone="111-222-3456" data-email="gmelton@operationhope.org">Glen Melton</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="section">
+        <h2><a href="CharityProfile.html">Charity Details: Operation Hope</a></h2>
+        <table class="charities-table">
+          <tr>
+            <th>Opportunity</th>
+            <th>Location</th>
+            <th>Date</th>
+            <th>Sign-Up</th>
+            <th>Forecast</th>
+          </tr>
+          <tr>
+            <td>Community Food Drive</td>
+            <td>Landrum</td>
+            <td>April 10, 2025</td>
+            <td><button class="sign-up-button">Sign-Up</button></td>
+            <td>
+              <input type="hidden" class="lat" value="35.1754">
+              <input type="hidden" class="lon" value="-82.1898">
+              <button class="forecast-button">Check Forecast</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Park Clean Up</td>
+            <td>Brookwood</td>
+            <td>April 19, 2025</td>
+            <td><button class="sign-up-button">Sign-Up</button></td>
+            <td>
+              <input type="hidden" class="lat" value="34.9423">
+              <input type="hidden" class="lon" value="-82.2349">
+              <button class="forecast-button">Check Forecast</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Coat, Blanket Drive</td>
+            <td>First Baptist Church</td>
+            <td>April 30, 2025</td>
+            <td><button class="sign-up-button">Sign-Up</button></td>
+            <td>
+              <input type="hidden" class="lat" value="34.9500">
+              <input type="hidden" class="lon" value="-82.2211">
+              <button class="forecast-button">Check Forecast</button>
+            </td>
+          </tr>
+        </table>
+        <div id="forecast-display" style="margin-top: 1em; padding: 1em; border: 1px solid #ccc;"></div>
+      </div>
+
+      <div class="section">
+        <h2>Interested in Registering Your Charity with HelpHub</h2>
+        <p>HelpHub is here to help you to help our community. If you have a charity that is working to make our community a better place and you have need of finding volunteers, then register with HelpHub and let us connect you with those looking to make a difference.</p>
+        <a href="NewCharity.html" class="register-button">Register</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div>
+      <h3>About HelpHub</h3>
+      <a href="#">Learn More</a>
+    </div>
+    <div>
+      <h3>Contact Us</h3>
+      <a href="#">Email</a>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+    </div>
+    <div>
+      <h3>Copyright</h3>
+      <p>Copyright 2025</p>
+    </div>
+  </div>
+
+  <script src="charity_profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register New Charity</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        /* Header Styling */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ADD8E6;
+            color: black;
+            padding: 15px;
+        }
+        .logo {
+            flex: 1;
+        }
+        .nav {
+            flex: 2;
+            text-align: center;
+        }
+        .nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .profile {
+            flex: 1;
+            text-align: right;
+        }
+        /* Content Styling */
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .section {
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            margin-bottom: 15px;
+        }
+        form {
+            display: grid;
+            gap: 15px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="url"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        textarea {
+            resize: vertical;
+        }
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        /* Footer Styling */
+        .footer {
+            background-color: #ADD8E6;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            margin-top: auto;
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer div {
+            text-align: left;
+        }
+        .footer a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <div class="logo"><img src="helphub_logo.png" alt="HelpHub Logo" height="40"></div>
+        <div class="nav">
+            <a href="HelpHubHome.html">Home</a>
+            <a href="CharitiesHome.html">Charities</a>
+            <a href="NewCharity.html">Register Charity</a>
+        </div>
+        <div class="profile"><a href="userprofile.html">User Profile</a></div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <div class="section">
+            <h2>Submission Form</h2>
+            <form action="#" method="POST">
+                <label for="orgName">Organization Name:</label>
+                <input type="text" id="orgName" name="orgName" required>
+
+                <label for="taxStatus">Organization Tax Status:</label>
+                <input type="text" id="taxStatus" name="taxStatus" required>
+
+                <label for="website">Organization Website:</label>
+                <input type="url" id="website" name="website" required>
+
+                <label for="contactName">Organization Contact Name:</label>
+                <input type="text" id="contactName" name="contactName" required>
+
+                <label for="contactPhone">Organization Contact Phone Number:</label>
+                <input type="tel" id="contactPhone" name="contactPhone" required>
+
+                <label for="contactEmail">Organization Contact Email Address:</label>
+                <input type="email" id="contactEmail" name="contactEmail" required>
+
+                <label for="serviceArea">Organization Service Area:</label>
+                <input type="text" id="serviceArea" name="serviceArea" required>
+
+                <label for="vision">Organization Vision:</label>
+                <textarea id="vision" name="vision" rows="4" required></textarea>
+
+                <label for="yearFounded">Organization Year Founded:</label>
+                <input type="text" id="yearFounded" name="yearFounded" required>
+
+                <label for="typicalOpportunities">Typical Opportunities Offered:</label>
+                <textarea id="typicalOpportunities" name="typicalOpportunities" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div>
+            <h3>About HelpHub</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <h3>Contact Us</h3>
+            <a href="#">Email</a>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+        <div>
+            <h3>Copyright</h3>
+            <p>&copy; 2025 HelpHub. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
