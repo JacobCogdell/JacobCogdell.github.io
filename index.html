@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jacob Cogdell — Computer Science student at Newberry College. Python, data analytics, web development, and more." />
+  <title>Jacob Cogdell | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ── Scroll Progress ──────────────────────────── -->
+<div id="progress-bar"></div>
+
+<!-- ══════════════════════════════════════════════
+     NAV
+═══════════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">Jacob<span>Cogdell</span></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="resume/jcogdell_resume.pdf" target="_blank" class="nav-resume">&#128196; Resume</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-layout">
+
+      <div class="hero-content">
+        <p class="hero-tag">&#128075; Computer Science Student &middot; Newberry College</p>
+        <h1 class="hero-name">Jacob Cogdell</h1>
+        <p class="hero-headline">
+          <strong>BS Computer Science &amp; BS Exercise Science</strong> &mdash;
+          building data-driven solutions at the intersection of software and human performance.
+        </p>
+        <div class="hero-chips">
+          <span class="pill pill-blue">4.0 CS GPA</span>
+          <span class="pill pill-gray">3.904 Overall GPA</span>
+          <span class="pill pill-green">NCAA Div II Pitcher</span>
+          <span class="pill pill-gold">Open to Internships</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#about" class="btn btn-outline">About Me</a>
+          <a href="resume/jcogdell_resume.pdf" target="_blank" class="btn btn-ghost">&#128196; Resume PDF</a>
+        </div>
+      </div>
+
+      <!-- Stat card — hidden on mobile -->
+      <div class="stat-card reveal">
+        <div class="stat-item">
+          <div class="stat-value">4.0</div>
+          <div class="stat-desc">CS Major GPA</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">3.904</div>
+          <div class="stat-desc">Overall GPA</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">2</div>
+          <div class="stat-desc">Degrees &middot; May&nbsp;2027</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value">D2</div>
+          <div class="stat-desc">NCAA Varsity Pitcher</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <span class="eyebrow">General Information</span>
+    <h2 class="section-title">About Me</h2>
+    <div class="rule"></div>
+
+    <div class="about-grid">
+
+      <div class="about-bio reveal">
+        <p>
+          I'm a Computer Science and Exercise Science double major at Newberry College in Newberry, SC,
+          graduating May 2027. I maintain a 4.0 GPA in Computer Science and a 3.904 overall GPA while
+          competing as a Division II varsity starting pitcher.
+        </p>
+        <p>
+          My background spans Python data pipelines, SQL analytics, web development with JavaScript and
+          Express.js, Power BI dashboards, and C systems programming. I enjoy building tools that solve
+          real problems &mdash; for local organizations, research, or sport performance analysis.
+        </p>
+        <p>
+          I'm actively seeking a <strong style="color:var(--white)">2026 Summer Internship</strong> in
+          software development or data analytics where I can contribute immediately and keep growing.
+        </p>
+
+        <!-- Resume download CTA -->
+        <div class="resume-cta">
+          <a href="resume/jcogdell_resume.pdf" target="_blank" class="btn btn-primary">
+            &#11015; Download Resume
+          </a>
+          <a href="https://www.linkedin.com/in/jacobcogdell" target="_blank" class="btn btn-outline">
+            LinkedIn Profile
+          </a>
+        </div>
+
+        <!-- Contact rows -->
+        <div class="about-contact">
+          <a href="mailto:jacob.cogdell@newberry.edu" class="contact-row">
+            <span class="contact-icon">&#9993;</span>
+            jacob.cogdell@newberry.edu
+          </a>
+          <a href="tel:8644738672" class="contact-row">
+            <span class="contact-icon">&#128222;</span>
+            (864) 473-8672
+          </a>
+          <a href="https://github.com/JacobCogdell" target="_blank" rel="noopener" class="contact-row">
+            <span class="contact-icon">&#128025;</span>
+            github.com/JacobCogdell
+          </a>
+          <a href="https://www.linkedin.com/in/jacobcogdell" target="_blank" rel="noopener" class="contact-row">
+            <span class="contact-icon">&#128101;</span>
+            linkedin.com/in/jacobcogdell
+          </a>
+        </div>
+      </div>
+
+      <!-- Highlight cards -->
+      <div class="highlights reveal">
+        <div class="hl-card">
+          <div class="hl-icon">&#128187;</div>
+          <div class="hl-title">Computer Science</div>
+          <div class="hl-sub">B.S. &middot; Newberry College &middot; 4.0 GPA &middot; May 2027</div>
+        </div>
+        <div class="hl-card">
+          <div class="hl-icon">&#9889;</div>
+          <div class="hl-title">Exercise Science</div>
+          <div class="hl-sub">B.S. &middot; Newberry College &middot; 4.0 Major GPA &middot; May 2027</div>
+        </div>
+        <div class="hl-card">
+          <div class="hl-icon">&#9918;</div>
+          <div class="hl-title">NCAA D2 Pitcher</div>
+          <div class="hl-sub">Newberry College Wolves &middot; Varsity &middot; Aug 2023 &ndash; Present</div>
+        </div>
+        <div class="hl-card">
+          <div class="hl-icon">&#127941;</div>
+          <div class="hl-title">Honors &amp; Awards</div>
+          <div class="hl-sub">Dean's List &middot; Chi Alpha Sigma &middot; Omicron Delta Kappa &middot; AD Academic Award</div>
+        </div>
+        <div class="hl-card">
+          <div class="hl-icon">&#128202;</div>
+          <div class="hl-title">Data Analytics</div>
+          <div class="hl-sub">Python &middot; Power BI &middot; SQL &middot; Pandas &middot; Matplotlib</div>
+        </div>
+        <div class="hl-card">
+          <div class="hl-icon">&#127758;</div>
+          <div class="hl-title">Web Development</div>
+          <div class="hl-sub">HTML &middot; CSS &middot; JavaScript &middot; Express.js &middot; REST APIs</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     EDUCATION
+═══════════════════════════════════════════════ -->
+<section id="education">
+  <div class="container">
+    <span class="eyebrow">Academic Record</span>
+    <h2 class="section-title">Education</h2>
+    <div class="rule"></div>
+
+    <div class="edu-grid">
+
+      <!-- Left: Degree block -->
+      <div class="reveal">
+        <div class="degree-block">
+          <div class="degree-header">
+            <div class="degree-school">Newberry College &middot; Newberry, SC</div>
+            <div class="degree-name">B.S. Computer Science<br><span style="font-size:var(--fs-lg);color:var(--muted);font-weight:600">+ B.S. Exercise Science</span></div>
+            <div class="degree-meta">Double Major &middot; Expected May 2027</div>
+          </div>
+          <div class="degree-body">
+            <div class="gpa-row">
+              <div class="gpa-block">
+                <div class="gpa-value">4.0</div>
+                <div class="gpa-label">CS Major GPA</div>
+              </div>
+              <div class="gpa-block">
+                <div class="gpa-value">3.904</div>
+                <div class="gpa-label">Overall GPA</div>
+              </div>
+            </div>
+
+            <div class="honors-list">
+              <div class="honors-label">Honors &amp; Recognition</div>
+              <div class="honor-item">Dean's List &mdash; Multiple Terms</div>
+              <div class="honor-item">Div II Athletic Director Association Academic Achievement Award</div>
+              <div class="honor-item">Chi Alpha Sigma &mdash; National College Athlete Honor Society</div>
+              <div class="honor-item">Omicron Delta Kappa &mdash; National Leadership Honor Society</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Athlete callout -->
+        <div class="athlete-block">
+          <strong>&#9918; NCAA Division II Athlete</strong>
+          Varsity starting pitcher, Newberry College Wolves Baseball &mdash; Aug 2023 to present.
+          Balancing 20&ndash;30 hrs/week of competition with a full double-major courseload.
+          Applies biomechanics and performance data to improve pitching mechanics and training cycles.
+        </div>
+      </div>
+
+      <!-- Right: Course list -->
+      <div class="courses-block reveal">
+
+        <!-- Completed CS courses -->
+        <div class="courses-section">
+          <div class="courses-heading">
+            <span class="status-dot dot-done"></span>
+            Completed CS Coursework
+          </div>
+          <div class="course-chips">
+            <div class="course-chip">
+              <span class="chip-code">CSC 155</span>
+              <span class="chip-name">Internet, History, Technology &amp; Security</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">CSC 156</span>
+              <span class="chip-name">Programming for Everyone I</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">CSC 157</span>
+              <span class="chip-name">Programming for Everyone II</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">CSC 260</span>
+              <span class="chip-name">Web Development</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">CSC 320</span>
+              <span class="chip-name">Introduction to C</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">CSC 325</span>
+              <span class="chip-name">Hardware: Inside a Microprocessor</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">CSC 335</span>
+              <span class="chip-name">Data Structures</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">CSC 340</span>
+              <span class="chip-name">Application Development I</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">CSC 360</span>
+              <span class="chip-name">Algorithms</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">ESM 102</span>
+              <span class="chip-name">Introduction to Games</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- In-progress -->
+        <div class="courses-section">
+          <div class="courses-heading">
+            <span class="status-dot dot-wip"></span>
+            In Progress &mdash; Fall 2026
+          </div>
+          <div class="course-chips">
+            <div class="course-chip wip">
+              <span class="chip-code wip-code">CSC 341</span>
+              <span class="chip-name">Application Development II</span>
+            </div>
+            <div class="course-chip wip">
+              <span class="chip-code wip-code">CSC 342</span>
+              <span class="chip-name">Software Development</span>
+            </div>
+            <div class="course-chip wip">
+              <span class="chip-code wip-code">COM 111</span>
+              <span class="chip-name">Practical Media Fundamentals</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Supporting Math -->
+        <div class="courses-section">
+          <div class="courses-heading">
+            <span class="status-dot dot-done"></span>
+            Supporting Mathematics
+          </div>
+          <div class="course-chips">
+            <div class="course-chip">
+              <span class="chip-code">MAT 150</span>
+              <span class="chip-name">Precalculus Mathematics</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">MAT 211</span>
+              <span class="chip-name">Calculus I &mdash; Differential Calculus</span>
+            </div>
+            <div class="course-chip">
+              <span class="chip-code">SSC 230</span>
+              <span class="chip-name">Statistics for Social Sciences</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /courses-block -->
+    </div><!-- /edu-grid -->
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     EXPERIENCE
+═══════════════════════════════════════════════ -->
+<section id="experience">
+  <div class="container">
+    <span class="eyebrow">Work History</span>
+    <h2 class="section-title">Experience</h2>
+    <div class="rule"></div>
+
+    <div class="exp-timeline reveal">
+
+      <div class="exp-entry">
+        <div class="exp-dates">
+          May 2024 &ndash; Aug 2024<br>
+          Dec 2024 &ndash; Jan 2025<br>
+          Jun 2025 &ndash; Aug 2025<br>
+          Nov 2025 &ndash; Jan 2026
+        </div>
+        <div>
+          <div class="exp-org">FedEx Ground</div>
+          <div class="exp-title">Package Handler</div>
+          <div class="exp-location">Spartanburg, SC</div>
+          <ul class="exp-bullets">
+            <li>Rehired multiple times based on strong performance and reliability</li>
+            <li>Ensured accurate scanning, sorting, and routing of packages in a high-volume environment</li>
+            <li>Maintained productivity and safety standards during peak seasons</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-entry">
+        <div class="exp-dates">
+          Jul 2023 &ndash; Aug 2023<br>
+          Nov 2023 &ndash; Dec 2023
+        </div>
+        <div>
+          <div class="exp-org">FedEx</div>
+          <div class="exp-title">Package Handler</div>
+          <div class="exp-location">Greer, SC</div>
+          <ul class="exp-bullets">
+            <li>Handled packages efficiently during peak seasons to maintain workflow and meet delivery timelines</li>
+            <li>Managed daily shipments and ensured accurate, on-time processing</li>
+            <li>Collaborated with team members to maintain productivity and safety standards</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-entry">
+        <div class="exp-dates">Aug 2023 &ndash; Present</div>
+        <div>
+          <div class="exp-org">Newberry College &mdash; NCAA Division II</div>
+          <div class="exp-title">Varsity Starting Pitcher</div>
+          <div class="exp-location">Newberry, SC</div>
+          <ul class="exp-bullets">
+            <li>Balanced 20&ndash;30 hours/week of practices, travel, and competition while completing a double major</li>
+            <li>Performed in high-pressure competitive environments, strengthening resilience and focus</li>
+            <li>Applied biomechanics and performance data to improve pitching mechanics and training cycles</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════════════ -->
+<section id="projects">
+  <div class="container">
+    <span class="eyebrow">Selected Work</span>
+    <h2 class="section-title">Projects</h2>
+    <div class="rule"></div>
+    <p class="section-sub">Filter by technology to find the most relevant work.</p>
+
+    <!-- Filter buttons -->
+    <div class="filter-bar" id="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="javascript">JavaScript</button>
+      <button class="filter-btn" data-filter="c">C</button>
+      <button class="filter-btn" data-filter="sql">SQL</button>
+      <button class="filter-btn" data-filter="powerbi">Power BI</button>
+      <button class="filter-btn" data-filter="webdev">Web Dev</button>
+      <button class="filter-btn" data-filter="data">Data Analytics</button>
+    </div>
+
+    <div class="project-grid" id="project-grid">
+
+      <!-- ─── Project 1: HelpHub ─── -->
+      <div class="project-card featured" data-skills="javascript webdev">
+        <div class="project-accent featured-accent"></div>
+        <div class="project-inner">
+          <div class="project-tags">
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag tag-gold">Featured</span>
+          </div>
+          <h3 class="project-title">HelpHub &mdash; Charity Discovery Platform</h3>
+          <p class="project-desc">
+            A full charity listing web application with browsable organization profiles,
+            user pages, and a new-charity registration flow. Built as a class project
+            demonstrating end-to-end front-end development.
+          </p>
+          <div class="project-skills">
+            <span class="project-skill-chip">HTML5</span>
+            <span class="project-skill-chip">CSS3</span>
+            <span class="project-skill-chip">JavaScript</span>
+            <span class="project-skill-chip">DOM Manipulation</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://jacobcogdell.github.io/helphub/HelpHubHome.html" target="_blank" rel="noopener" class="project-link pl-primary">Live Demo &#8599;</a>
+            <a href="https://github.com/JacobCogdell/helphub" target="_blank" rel="noopener" class="project-link pl-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── Project 2: Baseball Analytics ─── -->
+      <div class="project-card" data-skills="python data">
+        <div class="project-accent"></div>
+        <div class="project-inner">
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Pandas</span>
+            <span class="project-tag tag-green">Data Analytics</span>
+          </div>
+          <h3 class="project-title">Baseball Pitch Analytics</h3>
+          <p class="project-desc">
+            Python pipeline ingesting Statcast pitch data to analyze velocity, movement,
+            and spin-rate trends. Applies biomechanics research to generate actionable
+            feedback for training and pitch design.
+          </p>
+          <div class="project-skills">
+            <span class="project-skill-chip">Python</span>
+            <span class="project-skill-chip">Pandas</span>
+            <span class="project-skill-chip">Matplotlib</span>
+            <span class="project-skill-chip">NumPy</span>
+            <span class="project-skill-chip">Statcast API</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/JacobCogdell" target="_blank" rel="noopener" class="project-link pl-outline">GitHub &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── Project 3: Church Financial Dashboard ─── -->
+      <div class="project-card" data-skills="powerbi sql data">
+        <div class="project-accent"></div>
+        <div class="project-inner">
+          <div class="project-tags">
+            <span class="project-tag">Power BI</span>
+            <span class="project-tag">SQL</span>
+            <span class="project-tag tag-green">Data Analytics</span>
+          </div>
+          <h3 class="project-title">Church Financial Reporting System</h3>
+          <p class="project-desc">
+            Full Excel + Power BI financial reporting system for a local church: fund ledger,
+            chart of accounts, dynamic DAX measures, and leadership dashboards tracking
+            giving, expenses, and fund balances month-over-month.
+          </p>
+          <div class="project-skills">
+            <span class="project-skill-chip">Power BI</span>
+            <span class="project-skill-chip">DAX</span>
+            <span class="project-skill-chip">Excel</span>
+            <span class="project-skill-chip">Power Query</span>
+            <span class="project-skill-chip">SQL</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/JacobCogdell" target="_blank" rel="noopener" class="project-link pl-outline">GitHub &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── Project 4: Express REST API ─── -->
+      <div class="project-card" data-skills="javascript webdev">
+        <div class="project-accent"></div>
+        <div class="project-inner">
+          <div class="project-tags">
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">Express.js</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+          <h3 class="project-title">Express.js REST API</h3>
+          <p class="project-desc">
+            RESTful API backend built with Express.js featuring modular routing,
+            request validation middleware, structured CRUD endpoints, and
+            environment-based configuration for local and production use.
+          </p>
+          <div class="project-skills">
+            <span class="project-skill-chip">Express.js</span>
+            <span class="project-skill-chip">Node.js</span>
+            <span class="project-skill-chip">REST</span>
+            <span class="project-skill-chip">Middleware</span>
+            <span class="project-skill-chip">JSON</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/JacobCogdell" target="_blank" rel="noopener" class="project-link pl-outline">GitHub &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── Project 5: C Data Structures ─── -->
+      <div class="project-card" data-skills="c">
+        <div class="project-accent"></div>
+        <div class="project-inner">
+          <div class="project-tags">
+            <span class="project-tag">C</span>
+            <span class="project-tag">Systems</span>
+          </div>
+          <h3 class="project-title">Data Structures in C</h3>
+          <p class="project-desc">
+            Implementations of core data structures &mdash; linked lists, stacks, queues,
+            binary search trees, and hash tables &mdash; from scratch in C, with
+            thorough pointer management, memory allocation, and traversal algorithms.
+          </p>
+          <div class="project-skills">
+            <span class="project-skill-chip">C</span>
+            <span class="project-skill-chip">Pointers</span>
+            <span class="project-skill-chip">Memory Mgmt</span>
+            <span class="project-skill-chip">Algorithms</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/JacobCogdell" target="_blank" rel="noopener" class="project-link pl-outline">GitHub &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── Project 6: EMS Education Site ─── -->
+      <div class="project-card" data-skills="javascript webdev">
+        <div class="project-accent"></div>
+        <div class="project-inner">
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+          <h3 class="project-title">EMS Public Education Website</h3>
+          <p class="project-desc">
+            Designed and built educational comic-style web content for a local rescue squad,
+            covering AED use, CPR, Stop the Bleed, and 911 protocols &mdash; using a
+            consistent AI-generated character across all instructional modules.
+          </p>
+          <div class="project-skills">
+            <span class="project-skill-chip">HTML5</span>
+            <span class="project-skill-chip">CSS3</span>
+            <span class="project-skill-chip">Responsive Design</span>
+            <span class="project-skill-chip">UI/UX</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/JacobCogdell" target="_blank" rel="noopener" class="project-link pl-outline">GitHub &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── Project 7: Python Data Pipeline ─── -->
+      <div class="project-card" data-skills="python sql data">
+        <div class="project-accent"></div>
+        <div class="project-inner">
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">SQL</span>
+            <span class="project-tag tag-green">Data Analytics</span>
+          </div>
+          <h3 class="project-title">Data Cleaning &amp; ETL Pipeline</h3>
+          <p class="project-desc">
+            Reusable Python + SQL pipeline for ingesting, cleaning, and transforming
+            raw datasets into structured tables. Includes automated validation checks,
+            error logging, and output to Power BI-ready formats.
+          </p>
+          <div class="project-skills">
+            <span class="project-skill-chip">Python</span>
+            <span class="project-skill-chip">Pandas</span>
+            <span class="project-skill-chip">SQL</span>
+            <span class="project-skill-chip">Power Query</span>
+            <span class="project-skill-chip">ETL</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/JacobCogdell" target="_blank" rel="noopener" class="project-link pl-outline">GitHub &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── Project 8: App Dev I ─── -->
+      <div class="project-card" data-skills="javascript webdev">
+        <div class="project-accent"></div>
+        <div class="project-inner">
+          <div class="project-tags">
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Web Dev</span>
+          </div>
+          <h3 class="project-title">Application Development I &mdash; Capstone</h3>
+          <p class="project-desc">
+            Semester-long project from CSC 340: Application Development I. Designed, built,
+            and deployed a structured multi-page web application applying software engineering
+            principles, component organization, and iterative development.
+          </p>
+          <div class="project-skills">
+            <span class="project-skill-chip">JavaScript</span>
+            <span class="project-skill-chip">HTML/CSS</span>
+            <span class="project-skill-chip">OOP</span>
+            <span class="project-skill-chip">API Integration</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/JacobCogdell" target="_blank" rel="noopener" class="project-link pl-outline">GitHub &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /project-grid -->
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     SKILLS
+═══════════════════════════════════════════════ -->
+<section id="skills">
+  <div class="container">
+    <span class="eyebrow">Technical Profile</span>
+    <h2 class="section-title">Skills</h2>
+    <div class="rule"></div>
+
+    <div class="skills-grid reveal">
+
+      <div class="skill-panel">
+        <div class="skill-panel-title">Programming Languages</div>
+        <div class="skill-chips">
+          <span class="skill-chip">Python</span>
+          <span class="skill-chip">C</span>
+          <span class="skill-chip">JavaScript</span>
+          <span class="skill-chip">SQL</span>
+          <span class="skill-chip">HTML</span>
+          <span class="skill-chip">CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-panel">
+        <div class="skill-panel-title">Python Libraries</div>
+        <div class="skill-chips">
+          <span class="skill-chip">Pandas</span>
+          <span class="skill-chip">NumPy</span>
+          <span class="skill-chip">Matplotlib</span>
+          <span class="skill-chip">OOP Patterns</span>
+          <span class="skill-chip">API Dev</span>
+        </div>
+      </div>
+
+      <div class="skill-panel">
+        <div class="skill-panel-title">Web Development</div>
+        <div class="skill-chips">
+          <span class="skill-chip">Express.js</span>
+          <span class="skill-chip">Node.js</span>
+          <span class="skill-chip">REST APIs</span>
+          <span class="skill-chip">DOM Manipulation</span>
+          <span class="skill-chip">Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="skill-panel">
+        <div class="skill-panel-title">Data &amp; Analytics</div>
+        <div class="skill-chips">
+          <span class="skill-chip">Power BI</span>
+          <span class="skill-chip">DAX</span>
+          <span class="skill-chip">Power Query</span>
+          <span class="skill-chip">Data Visualization</span>
+          <span class="skill-chip">ETL Pipelines</span>
+        </div>
+      </div>
+
+      <div class="skill-panel">
+        <div class="skill-panel-title">Tools &amp; Platforms</div>
+        <div class="skill-chips">
+          <span class="skill-chip">Git / GitHub</span>
+          <span class="skill-chip">VS Code</span>
+          <span class="skill-chip">Office 365</span>
+          <span class="skill-chip">Cloud Fundamentals</span>
+          <span class="skill-chip">GitHub Pages</span>
+        </div>
+      </div>
+
+      <div class="skill-panel">
+        <div class="skill-panel-title">Professional</div>
+        <div class="skill-chips">
+          <span class="skill-chip">Teamwork</span>
+          <span class="skill-chip">Adaptability</span>
+          <span class="skill-chip">Resilience</span>
+          <span class="skill-chip">Coaching</span>
+          <span class="skill-chip">Motivation</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-inner">
+    <p class="footer-copy">&copy; <span id="year"></span> <strong>Jacob Cogdell</strong>. Built with HTML, CSS &amp; JavaScript &middot; Hosted on GitHub Pages.</p>
+    <div class="footer-links">
+      <a href="https://github.com/JacobCogdell" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/jacobcogdell" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:jacob.cogdell@newberry.edu">Email</a>
+      <a href="resume/jcogdell_resume.pdf" target="_blank">Resume</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
